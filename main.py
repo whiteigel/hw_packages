@@ -4,7 +4,7 @@ import datetime
 
 def current_date():
     cur_date = datetime.date.today()
-    print(cur_date)
+    print(f'Today is {cur_date}')
     return
 
 if __name__ == '__main__':
